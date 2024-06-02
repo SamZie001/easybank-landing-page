@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+}
+a {
+  @apply hover:text-lime-green;
+  transition: all 0.2s ease-in-out;
+}
+.withTransition {
+  transition: all 0.2s ease-in-out;
+}
+.header-text {
+  @apply text-primary text-center md:text-left text-4xl md:text-5xl font-extralight py-5;
+}
+.container {
+  @apply max-w-6xl px-3 md:px-2 mx-auto w-full;
+}
+.mix-gradient {
+  @apply from-lime-green to-bright-cyan bg-gradient-to-r;
+}
+.btn {
+  @apply py-[0.5rem] w-max px-6 flex justify-center items-center rounded-full from-lime-green to-bright-cyan bg-gradient-to-r text-secondary text-sm font-semibold hover:brightness-125;
+  transition: all 0.2s ease-in-out;
+}
+.desktop-nav a {
+  @apply mx-3 relative inline-flex items-center h-full text-grayish-blue hover:text-primary;
+  transition: all 0.2s ease-in-out;
+}
+.desktop-nav a::after {
+  content: "";
+  @apply absolute rounded-t-sm w-full bottom-0 h-0 hover:h-1 from-lime-green to-bright-cyan bg-gradient-to-r;
+  transition: all 0.2s ease-in-out;
+}
+.mobile-nav a {
+  @apply my-2 text-grayish-blue hover:text-lime-green text-xl;
+  transition: all 0.2s ease-in-out;
+}
+svg {
+  @apply cursor-pointer;
+}
+svg:hover path {
+  @apply fill-lime-green cursor-pointer;
+  transition: all 0.2s ease-in-out;
+}
