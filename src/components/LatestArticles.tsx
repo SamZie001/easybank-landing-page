@@ -50,7 +50,7 @@ const LatestArticles = () => {
               <img src={card.logo} alt={card.title} className="h-40 w-full" />
               <div className="space-y-3 px-5 py-6">
                 <p className="text-xs text-grayish-blue">By {card.by}</p>
-                <a href="" className="text-primary text-xl font-semibold">
+                <a href="#" className="text-primary text-xl font-semibold">
                   {card.title}
                 </a>
                 <p className="text-grayish-blue text-sm">

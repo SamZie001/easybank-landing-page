@@ -14,11 +14,11 @@ const Navbar = () => {
         </div>
 
         <div className="desktop-nav">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Contact</a>
-          <a href="">Blog</a>
-          <a href="">Careers</a>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
         </div>
 
         <div className="flex justify-end items-center">
@@ -46,11 +46,11 @@ const Navbar = () => {
         {show && (
           <div className="fixed top-16 z-30 left-0 w-full bg-primary/50 h-full flex py-8 px-10 justify-center">
             <div className="mobile-nav | bg-secondary h-max w-full rounded-md flex flex-col items-center p-10">
-              <a href="">Home</a>
-              <a href="">About</a>
-              <a href="">Contact</a>
-              <a href="">Blog</a>
-              <a href="">Careers</a>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+              <a href="#">Blog</a>
+              <a href="#">Careers</a>
             </div>
           </div>
         )}

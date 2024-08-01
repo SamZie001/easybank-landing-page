@@ -45,24 +45,24 @@ const Footer = () => {
           </div>
           <div className="ml-0 md:ml-24 flex flex-col md:flex-row gap-0 md:gap-28 py-5 text-light-grayish-blue">
             <ul className="text-center md:text-left leading-8">
-              <a href="">
+              <a href="#">
                 <li>About Us</li>
               </a>
-              <a href="">
+              <a href="#">
                 <li>Contact</li>
               </a>
-              <a href="">
+              <a href="#">
                 <li>Blog</li>
               </a>
             </ul>
             <ul className="text-center md:text-left leading-8">
-              <a href="">
+              <a href="#">
                 <li>Careers</li>
               </a>
-              <a href="">
+              <a href="#">
                 <li>Support</li>
               </a>
-              <a href="">
+              <a href="#">
                 <li>Privacy Policy</li>
               </a>
             </ul>
